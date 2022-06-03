@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "poppinsemibold";
+    src: url("../../../public/fonts/PoppinsSemibold-8l8n.otf");
+}
+
+@font-face {
+    font-family: "regencieLight";
+    src: url("../../../public/fonts/RegencieLight-M2gn.ttf");
+}
+
+.navbar-div {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    top: 0;
+    background: #3D7D49;
+}
+
+.navbar-name {
+    position: absolute;
+    left: 80px;
+    top: 43px;
+    font-family: 'poppinsemibold';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-career {
+    position: absolute;
+    left: 230px;
+    top: 55px;
+    font-family: 'regencieLight';
+    font-size: 17px;
+}
