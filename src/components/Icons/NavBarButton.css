@@ -1,45 +1,32 @@
-.a { 
+.navbtn-container { 
     width: 90px; 
 } 
 
-.b { 
+.navbtn-btn { 
     width: 80px; 
     height: 50px; 
-    text-align: center;
+    text-align: left;
     line-height: 50px;
 } 
 
-.c { 
+.navbtn-sublist { 
     width: 100px; 
     height: 300px; 
     display: none;
 } 
 
-ul { 
-    list-style: none; 
-    margin-left: -40px; 
-} 
-
-ul li { 
-    line-height: 50px; 
-    display: block;
-    width: 100px; 
-    text-align: center; 
-} 
-
-.a:hover { 
+.navbtn-container:hover { 
     cursor: pointer; 
 } 
 
-.a:hover .c { 
+.navbtn-container:hover .navbtn-sublist { 
     display: block; 
 } 
 
-.a:hover .b { 
+.navbtn-container:hover .navbtn-btn { 
     color: blue;
 } 
 
-li:hover { 
-    background-color: gray; 
-    color: #FFFFFF; 
-}
+.navbtn-container:hover .navbtn-sublist .navbtn-btn { 
+    color: black;
+} 
