@@ -30,3 +30,7 @@
 .navbtn-container:hover .navbtn-sublist .navbtn-btn { 
     color: black;
 } 
+
+.navbtn-sublist-btn .navbtn-container:hover .navbtn-btn{
+    color: blue;
+}
