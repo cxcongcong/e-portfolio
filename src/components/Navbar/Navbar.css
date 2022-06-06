@@ -11,10 +11,9 @@
 .navbar-div {
     position: sticky; /*fixed: will not occupy any space in the body so the next element(eg: div) will be behind the fixed element.*/
     position: -webkit-sticky;
-    width: 100%;
-    height: 150px;
-    left: 0;
     top: 0;
+    width: 100%;
+    height: 150px;    
     background-color: white;
 }
 

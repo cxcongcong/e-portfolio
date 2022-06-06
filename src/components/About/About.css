@@ -1,0 +1,61 @@
+.about {
+    position: relative;
+    display: flex;/*vertical center*/
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    z-index: -1;
+}
+
+.about-bg-left {
+    display: inline-block;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    /*use Grabient website to get the gradient color*/
+    width: 40%;
+    height: 900px;
+}
+
+.about-bg-right {
+    display: inline-block;
+    background-color: white;
+    width: 60%;
+    height: 900px;
+}
+
+.about-info-div {
+    position: absolute;
+    font-size: 80px;
+    width: 900px;
+    height: 530px;
+    background-color: white;
+    left: 50%;/*horinzontally center*/
+    transform: translate(-50%);
+}
+
+.about-info-left-part {
+    display: inline-block;
+    background-color: #97e1bc;
+    width: 400px;
+    height: 530px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.about-info-right-part {
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    height: 530px;
+}
+
+.b {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50%;/*horinzontally center*/
+    transform: translate(-50%);
+}

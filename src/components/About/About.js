@@ -1,8 +1,18 @@
+import "./About.css";
+
 function About() {
     return (
-        <div>
-            <div style={{fontSize:'380px'}}>ABOUT</div>
-            <div style={{fontSize:'380px'}}>HI</div>
+        <div className="about">
+            <div className="about-bg">
+                <div className="about-bg-left"></div>
+                <div className="about-bg-right"></div>
+            </div>
+            <div className="about-info-div">
+                <div className="about-info-left-part">
+                    <div className="b"></div>
+                </div>
+                <div className="about-info-right-part"></div>
+            </div>
         </div>
     )
 }
