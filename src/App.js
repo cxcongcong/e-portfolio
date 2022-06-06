@@ -8,6 +8,7 @@ import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Content from './components/Content/Content';
 import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Blog" element={<Blog/>}/>
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }

@@ -1,0 +1,14 @@
+.footer-block-div {
+    width: 150px;
+    position: absolute;
+    /*display: flex;//vertical center
+    flex-direction: column;
+    justify-content: center;*/
+    text-align: center;/*horizontal center*/
+    top: 50px;
+}
+
+.footer-block-div div{
+    width: 150px;
+    word-break: break-all;
+}
