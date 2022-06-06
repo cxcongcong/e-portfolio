@@ -9,9 +9,18 @@ function About() {
             </div>
             <div className="about-info-div">
                 <div className="about-info-left-part">
-                    <div className="b"></div>
+                    <div className="about-info-avatar"></div>
+                    <div className="about-info-name">Irene Chen</div>
+                    <div className="about-info-blue-line"></div>
+                    <div className="about-info-career">FRONTEND   DEVELOPER</div>
+                    <div className="about-info-media-div"></div>
                 </div>
-                <div className="about-info-right-part"></div>
+                <div className="about-info-right-part">
+                    <div className="about-info-text-1">Creactive</div>
+                    <div className="about-info-text-2">DEVELOPER</div>
+                    <div className="about-info-text-3">SENSIBLE TO FRONTEND</div>
+                    <button className="b">RESUME</button>
+                </div>
             </div>
         </div>
     )
