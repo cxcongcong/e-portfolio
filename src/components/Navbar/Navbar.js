@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import Square from "../Icons/Square";
 import NavbarButton from "../Icons/NavbarButton";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -11,10 +12,10 @@ function Navbar() {
                 <div className="navbar-career">/ FRONTEND DEVELOPER</div>
             </div>
             <div className="navbar-right-part">
-                <NavbarButton name="ABOUT ME" top="0px" right="310px"/>
-                <NavbarButton name="RESUME" top="0px" right="220px" sublist="SKILLS;EXPERIENCE;EDUCATION"/>
-                <NavbarButton name="BLOGS" top="0px" right="140px" sublist="Content;The art of...;How to..."/>
-                <NavbarButton name="CONTACT" top="0px" right="60px"/>
+                <Link to="/About"><NavbarButton name="ABOUT ME" top="0px" right="310px"/></Link>
+                <NavbarButton name="RESUME" top="0px" right="220px" sublist="SKILLS,/Skills;EXPERIENCE,/Experience;EDUCATION,/Education"/>
+                <NavbarButton name="BLOGS" top="0px" right="140px" sublist="Content,/Content;The art of...,/Blog;How to...,/Blog"/>
+                <Link to="/Contact"><NavbarButton name="CONTACT" top="0px" right="60px"/></Link>
             </div>
         </div>
     )
