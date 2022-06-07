@@ -13,14 +13,14 @@ function DownloadButton(props) {
         background_color =  props.bgcolor
     }
     return (
-        <a className="about-download-btn" 
+        <button  className="about-download-btn" 
             style={{left: props.left, 
                     top: props.top,
                     backgroundColor: background_color}}
             onMouseEnter={toggleHover}
             onMouseLeave={toggleHover}>
             {props.name}
-        </a>
+        </button>
     )
 }
 
