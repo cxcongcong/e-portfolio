@@ -1,5 +1,8 @@
 import DownloadButton from "../Icons/DownloadButton";
 import "./About.css";
+import facebookIcon from '../../images/facebook.webp';
+import linkedinIcon from '../../images/linkedin.webp';
+import insIcon from '../../images/ins.webp';
 
 function About() {
     return (
@@ -14,7 +17,14 @@ function About() {
                     <div className="about-info-name">Irene Chen</div>
                     <div className="about-info-blue-line"></div>
                     <div className="about-info-career">FRONTEND   DEVELOPER</div>
-                    <div className="about-info-media-div"></div>
+                    <div className="about-info-media-bg">
+                        <div className="about-info-media-div">
+                            <div><img src={facebookIcon} alt="facebook"/></div>
+                            <div><img src={linkedinIcon} alt="linkedin"/></div>
+                            <div><img src={insIcon} alt="ins"/></div>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div className="about-info-right-part">
                     <div className="about-info-text-1">Creactive</div>

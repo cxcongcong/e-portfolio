@@ -95,12 +95,28 @@
     text-align: center;
 }
 
-.about-info-media-div {
+.about-info-media-bg {
     position: absolute;
     bottom: 0;
     background-color: white;
     height: 50px;
     width: 100%;
+}
+
+.about-info-media-div {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+.about-info-media-div img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
 }
 
 .about-info-right-part {
