@@ -1,3 +1,4 @@
+import DownloadButton from "../Icons/DownloadButton";
 import "./About.css";
 
 function About() {
@@ -19,7 +20,10 @@ function About() {
                     <div className="about-info-text-1">Creactive</div>
                     <div className="about-info-text-2">DEVELOPER</div>
                     <div className="about-info-text-3">SENSIBLE TO FRONTEND</div>
-                    <button className="b">RESUME</button>
+                    <div className="about-info-button-div">
+                        <DownloadButton name="RESUME" top="80px"/>
+                        <DownloadButton name="Canva doc" left="200px" top="80px" bgcolor="#70b5f5" hvbgcolor="#97D9E1"/>
+                    </div>
                 </div>
             </div>
         </div>
