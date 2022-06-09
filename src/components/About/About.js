@@ -3,6 +3,7 @@ import "./About.css";
 import facebookIcon from '../../images/facebook.webp';
 import linkedinIcon from '../../images/linkedin.webp';
 import insIcon from '../../images/ins.webp';
+import MediaDiv from "../Icons/MediaDiv";
 
 function About() {
     return (
@@ -18,12 +19,9 @@ function About() {
                     <div className="about-info-blue-line"></div>
                     <div className="about-info-career">FRONTEND   DEVELOPER</div>
                     <div className="about-info-media-bg">
-                        <div className="about-info-media-div">
-                            <div><img src={facebookIcon} alt="facebook"/></div>
-                            <div><img src={linkedinIcon} alt="linkedin"/></div>
-                            <div><img src={insIcon} alt="ins"/></div>
-                        </div>
-                        
+                        <MediaDiv info={`${facebookIcon},https://www.facebook.com/irene.chen.1840/;
+                                        ${linkedinIcon},https://www.linkedin.com/in/xiaocong-chen/;
+                                        ${insIcon},https://www.instagram.com/xiaoccccong/`}/>
                     </div>
                 </div>
                 <div className="about-info-right-part">

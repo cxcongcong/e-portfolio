@@ -103,22 +103,6 @@
     width: 100%;
 }
 
-.about-info-media-div {
-    width: 35%;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0;
-}
-
-.about-info-media-div img {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    bottom: 10px;
-    cursor: pointer;
-}
-
 .about-info-right-part {
     width: 400px;
     height: 530px;
