@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "poppinsemibold";
+    src: url("../../../public/fonts/PoppinsSemibold-8l8n.otf");
+}
+
+.contact {
+    background-color: #a4ceb8;
+    width: 100%;
+    display: flex;/*vertical center*/
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-heading {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px auto;
+    font-family: 'poppinsemibold';
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+}
+
+.contact-table {
+    width: 60%;
+    height: 700px;
+    background-color: white;
+    margin: 10px auto;
+}
