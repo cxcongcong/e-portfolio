@@ -4,6 +4,7 @@ import facebookIcon from '../../images/facebook.webp';
 import linkedinIcon from '../../images/linkedin.webp';
 import insIcon from '../../images/ins.webp';
 import MediaDiv from "../Icons/MediaDiv";
+import CV from '../../files/CV.doc';
 
 function About() {
     return (
@@ -29,8 +30,8 @@ function About() {
                     <div className="about-info-text-2">DEVELOPER</div>
                     <div className="about-info-text-3">SENSIBLE TO FRONTEND</div>
                     <div className="about-info-button-div">
-                        <DownloadButton name="RESUME" top="80px"/>
-                        <DownloadButton name="Canva doc" left="200px" top="80px" bgcolor="#70b5f5" hvbgcolor="#97D9E1"/>
+                        <DownloadButton name="RESUME" top="80px" link={CV}/>
+                        <DownloadButton name="Canva doc" left="200px" top="80px" bgcolor="#70b5f5" hvbgcolor="#97D9E1" link="https://www.canva.com/design/DAFB8rhKsMM/umt5YG19pUxsGnNoXKZgXA/view?utm_content=DAFB8rhKsMM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"/>
                     </div>
                 </div>
             </div>
