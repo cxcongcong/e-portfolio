@@ -2,11 +2,13 @@ import { useState } from 'react';
 import './DownloadButton.css';
 
 function download(url){
-    var a = document.createElement('a');
-    var event = new MouseEvent('click');
-    a.download = url.toString();
-    a.href = url;
-    a.dispatchEvent(event)
+    if(url) {
+        var a = document.createElement('a');
+        var event = new MouseEvent('click');
+        a.download = url.toString();
+        a.href = url;
+        a.dispatchEvent(event)
+    }
 }
 
 function DownloadButton(props) {

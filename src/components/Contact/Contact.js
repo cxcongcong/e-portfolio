@@ -3,6 +3,7 @@ import { useState } from "react";
 import Square from '../Icons/Square';
 import emailIcon from '../../images/contact_email_icon.png';
 import phoneIcon from '../../images/contact_phone_icon.png';
+import DownloadButton from '../Icons/DownloadButton';
 
 function MyForm() {
     const [inputs, setInputs] = useState({});
@@ -57,7 +58,7 @@ function MyForm() {
               </tr>
               <tr>
                 <td colspan="2">
-                    <label>Subject *
+                    <label>Subject
                         <input 
                         type="text" 
                         name="subject" 
@@ -69,8 +70,8 @@ function MyForm() {
               </tr>
               <tr>
                 <td colspan="2">
-                    <label>Message *
-                        <input 
+                    <label>Message
+                        <textarea row='30'
                         type="text" 
                         name="message" 
                         value={inputs.message || ""} 
@@ -80,7 +81,7 @@ function MyForm() {
                 </td>
               </tr>
               <tr>
-                  <td><input type="submit" /></td>
+                  <td><DownloadButton name='submit' bgcolor='rgb(63, 63, 212)'/></td>
               </tr>
           </table>
       </form>
