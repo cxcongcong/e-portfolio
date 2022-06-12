@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className="navbar-div">
             <div className="navbar-left-part">
-                <Square left="50px" top="53px" bgcolor="blue"/>
+                <Square position="absolute" left="50px" top="53px" bgcolor="blue"/>
                 <div className="navbar-name">Irene Chen</div>
                 <div className="navbar-career">/ FRONTEND DEVELOPER</div>
             </div>

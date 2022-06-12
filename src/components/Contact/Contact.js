@@ -95,7 +95,7 @@ function Contact() {
     return (
         <div className='contact'>
             <div className='contact-heading'>
-                <div><Square bgcolor="blue" left="140px" top="18px"/> Let's talk</div>
+                <div><Square bgcolor="blue" position="absolute" left="140px" top="18px"/> Let's talk</div>
                 <div className='contact-heading-bottom'>
                     <div><img src={emailIcon} alt="email" id='emailicon'/> cxcongcong@gmail.com</div>
                     <div><img src={phoneIcon} alt="phone" id='phoneicon'/>0410224620</div>

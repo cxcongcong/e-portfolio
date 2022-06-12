@@ -3,7 +3,7 @@ function Square(props) {
         <div style={{
                 width:'16.5px',
                 height:'16px',
-                position:'absolute',
+                position:props.position,
                 left:props.left,
                 top:props.top,
                 background:props.bgcolor,
