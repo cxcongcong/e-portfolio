@@ -30,6 +30,7 @@ function MyForm() {
                         name="firstname" 
                         value={inputs.firstname || ""} 
                         onChange={handleChange}
+                        required
                         />
                     </label>
                   </td>
@@ -40,6 +41,7 @@ function MyForm() {
                             name="lastname" 
                             value={inputs.lastname || ""} 
                             onChange={handleChange}
+                            required
                         />
                     </label>
                   </td>
@@ -52,6 +54,7 @@ function MyForm() {
                         name="email" 
                         value={inputs.email || ""} 
                         onChange={handleChange}
+                        required
                         />
                     </label>
                 </td>
