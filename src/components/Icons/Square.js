@@ -7,6 +7,7 @@ function Square(props) {
                 left:props.left,
                 top:props.top,
                 background:props.bgcolor,
+                display:props.display
                 }}>
         </div>
     )

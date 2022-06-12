@@ -10,7 +10,8 @@ function Skills() {
                     <div className='resume-skills-info-block'>
                         <div className='resume-skills-heading'>Soft skills</div>
                         <div className='resume-skills-context' style={{position:'relative'}}>
-                            <Square top="10px" left="10px" bgcolor="blue"/>
+                            <Square bgcolor="blue" display="inline-block"/>a
+                            <Square bgcolor="blue" display="inline-block"/>b
                         </div>
                     </div>
                 </div>
