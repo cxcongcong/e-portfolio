@@ -1,0 +1,29 @@
+.resume-skills-info-block {
+    width: 600px;
+    background-color: white;
+    padding: 50px;
+}
+
+.resume-skills-heading {
+    font-family: 'poppinsemibold';
+    font-size: 23px;
+}
+
+.resume-skills-context {
+    position: relative; 
+    display: grid;
+    grid-template-columns: 33% 33%; /*2cols*/
+    grid-gap: 30px;
+    padding-top: 30px;
+}
+
+.resume-skills-context > div {
+    font-size: 10px;
+    padding: .5em;
+}
+
+.resume-skills-skill {
+    width: 160px;
+    padding-left: 10px;
+    float: right;
+}

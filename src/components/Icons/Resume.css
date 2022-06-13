@@ -5,10 +5,10 @@
 
 .resume-context {
     width: 700px;
-    margin: auto;
+    margin: auto;/*horizontally center*/
 }
 
-.resume-heading {
+.resume-heading, .resume-ending {
     width: 700px;
     height: 120px;
     font-family: 'poppinsemibold';
@@ -21,14 +21,6 @@
     width: 700px;
 }
 
-.resume-skills-info-block {
-    width: 600px;
-    height: 300px;
-    background-color: white;
-    padding: 50px;
-}
-
-.resume-skills-heading {
-    font-family: 'poppinsemibold';
-    font-size: 23px;
+.resume-info-shadow {
+    box-shadow: 0px 0px 10px rgb(155, 154, 154);
 }
