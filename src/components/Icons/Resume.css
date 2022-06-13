@@ -17,10 +17,18 @@
     padding-top: 100px;
 }
 
+.resume-ending {
+    height: 40px;
+}
+
 .resume-info-block {
     width: 700px;
 }
 
 .resume-info-shadow {
     box-shadow: 0px 0px 10px rgb(155, 154, 154);
+}
+
+.resume-info-border {
+    border: 5px solid transparent;
 }

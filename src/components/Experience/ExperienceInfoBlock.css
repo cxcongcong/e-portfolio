@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "poppinsemibold";
+    src: url("../../../public/fonts/PoppinsSemibold-8l8n.otf");
+}
+
+.resume-experience-info-block {
+    display: grid;
+    grid-template-columns: 50% 50%; /*2cols*/
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 0px 10px rgb(155, 154, 154);
+    margin-bottom: 40px;
+}
+
+.resume-experience-info-block-left {
+    display: grid;
+    grid-template-rows: 30px 30px 100px 30px;
+}
+
+.resume-experience-time {
+    font-size: 20px;
+    color: rgb(70, 70, 246);
+    font-family: "poppinsemibold";
+}
+
+.resume-experience-career {
+    font-size: 17px;
+}
+
+.resume-experience-company {
+    font-size: 14px;
+}
+
+.resume-experience-location {
+    font-size: 14px;
+}
