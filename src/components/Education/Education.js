@@ -1,8 +1,18 @@
+import '../Icons/Resume.css';
+import EducationInfoBlock from './EducationInfoBlock';
+import { education_1, education_2} from './EducationData.js'
+
 function Education() {
     return (
-        <div>
-            <div style={{fontSize:'380px'}}>Education</div>
-            <div style={{fontSize:'380px'}}>HI</div>
+        <div className="resume">
+            <div className='resume-context'>
+                <div className="resume-heading">Education</div>
+                <div className="resume-info-block resume-info-border">
+                    <EducationInfoBlock info={education_1}/>
+                    <EducationInfoBlock info={education_2}/>
+                </div>
+                <div className='resume-ending'></div>
+            </div>
         </div>
     )
 }
