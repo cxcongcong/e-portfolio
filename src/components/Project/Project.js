@@ -1,10 +1,10 @@
-function Content() {
+function Project() {
     return (
         <div>
-            <div style={{fontSize:'380px'}}>Content</div>
+            <div style={{fontSize:'380px'}}>Project</div>
             <div style={{fontSize:'380px'}}>HI</div>
         </div>
     )
 }
 
-export default Content;
+export default Project;
