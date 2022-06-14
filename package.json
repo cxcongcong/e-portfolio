@@ -1,4 +1,5 @@
 {
+  "homepage":".",
   "name": "my-eportfolio",
   "version": "0.1.0",
   "private": true,
