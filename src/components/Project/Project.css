@@ -1,0 +1,18 @@
+.project-switch-point {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #94b0a0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+.project-switch-point:hover,.project-switch-point:active {
+    width: 27px;
+    height: 27px;
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
