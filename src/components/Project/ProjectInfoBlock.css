@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "poppinsemibold";
+    src: url("../../../public/fonts/PoppinsSemibold-8l8n.otf");
+}
+
+.project-info-block {
+    display: grid;
+    grid-template-rows: 500px 50%; /*2cols*/
+    background-color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 0px 10px rgb(155, 154, 154);
+    margin-bottom: 40px;
+}
+
+.project-info-block-up {
+    display: grid;
+    grid-template-rows: 35px 30px 400px;
+    row-gap: 8px;
+}
+
+.project-name-style {
+    font-size: 25px;
+    font-family: "poppinsemibold";
+}
+
+.project-img-style {
+    width: 100%;
+    height: 400px;
+}
+
+.project-img-style img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-tool-style div {
+    background-color: #94b0a0;
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+    max-width: 480px;
+    height: 25px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
