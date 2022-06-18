@@ -2,20 +2,8 @@
 
 
 
+# [A demo for the e-portfolio](https://62ad90250151d353fedb7eb8--willowy-rugelach-b6dab7.netlify.app/)
 
-##############################################################################
-
-
-
-A demo for the e-portfolio:
-https://62ad90250151d353fedb7eb8--willowy-rugelach-b6dab7.netlify.app/
-
-
-
-
-
-
-##############################################################################
 
 
 
