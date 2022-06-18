@@ -13,7 +13,8 @@ export const project_1 = {
             'Developed log-in, sign up and search page for this website.',
             'Checked and fixed bugs to keep the results of functions consistent between different web pages.',
             'Added error prevention and feedback to improve user experience.',
-            'Welcome to have a glimpse of this project: https://github.com/cxcongcong/graduate_program']
+            'Welcome to have a glimpse of this project:',
+            <a href="https://github.com/cxcongcong/graduate_program" target="_blank" rel="noreferrer">Github Code</a>]
 }
 
 export const project_2 = {
@@ -34,7 +35,8 @@ export const project_3 = {
             'Rank the countries in dataframe based on the distance from the first case of COVID.',
             'Find the average foreign direct investment for each income class.',
             'Plot a scatter plot based on its latitude and longitude, and ink each country based on its continent .',
-            'Welcome to have a glimpse of this project: https://github.com/cxcongcong/COMP9321-Geographic-data-processing-']
+            'Welcome to have a glimpse of this project: ',
+            <a href="https://github.com/cxcongcong/COMP9321-Geographic-data-processing-" target="_blank" rel="noreferrer">Github Code</a>]
 }
 
 export const project_4 = {
@@ -43,5 +45,6 @@ export const project_4 = {
     tools: ['Python','Pandas','flask'],
     desc: ['Develop a Flask-Restx data service that allows a client to read and store some TV Shows, and allow the consumers to access the data through a REST API.',
             'Deal with cases such as invalid titles and invalid attempts to use the endpoint.',
-            'Welcome to have a glimpse of this project: https://github.com/cxcongcong/COMP9321-data-service']
+            'Welcome to have a glimpse of this project: ',
+            <a href="https://github.com/cxcongcong/COMP9321-data-service" target="_blank" rel="noreferrer">Github Code</a>]
 }
