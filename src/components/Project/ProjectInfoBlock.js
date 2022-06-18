@@ -14,11 +14,12 @@ function ProjectInfoBlock(props) {
             <div className='project-info-block-up'>
                 <div className='project-name-style'>{name}</div>
                 <div className='project-tool-style'>{tool}</div>
-                <div className='project-img-style'><img src={pic} alt={pic}/></div>
+                <div className='project-img-style'><img src={pic} alt={pic} /></div>
             </div>
             <div className='project-info-block-bottom'>
                 <ul>{desc}</ul>
             </div>
+
         </div>
     )
 }
