@@ -5,26 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const injectGA = () => {
-  if (typeof window == 'undefined') {
-    return;
-  }
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
 
-  gtag('config', 'G-X7268C392E');
-};
 root.render(
   <React.StrictMode>
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-X7268C392E"
-    />
-    <script>{injectGA()}</script>
     <App />
   </React.StrictMode>
 );
