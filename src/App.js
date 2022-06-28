@@ -13,7 +13,7 @@ import TagManager from 'react-gtm-module'
 
 function App() {
   const tagManagerArgs = {
-    gtmId: 'GTM-xxxxxx'
+    gtmId: 'GTM-NWSTJP2'
   };
   TagManager.initialize(tagManagerArgs)
 
