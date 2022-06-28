@@ -8,15 +8,9 @@ import Experience from './components/Experience/Experience';
 import Education from './components/Education/Education';
 import Project from './components/Project/Project';
 import Footer from './components/Footer/Footer';
-import TagManager from 'react-gtm-module'
 
 
 function App() {
-  const tagManagerArgs = {
-    gtmId: 'GTM-NWSTJP2'
-  };
-  TagManager.initialize(tagManagerArgs)
-
   return (
     <Router>
       <Navbar/>
