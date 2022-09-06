@@ -36,3 +36,13 @@ export const experience_4 = {
     description: ['Negotiated with clients and implemented financial management.',
                 'Making drinks.']
 };
+
+export const experience_5 = {
+    time: '2022.7 - Current',
+    career: 'IT support & Office allrounder',
+    company: 'Brighten Technologies',
+    location: 'Auburn NSW Australia',
+    description: ['Redesigned, built and maintained the company website.',
+                'Collaborated with project managers to forward the project, including contacting with site companies, preparing site folders, and booking tools and machines, etc.',
+                'Scheduled interviews and administered pre-employment assessments to prospective candidates.']
+};
